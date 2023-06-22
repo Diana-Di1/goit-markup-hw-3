@@ -10,6 +10,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Portfolio</title>
   </head>
@@ -17,228 +24,268 @@
     <!--------------------HEADER------------------------->
 
     <header class="header">
-      <nav class="header-navigation">
-        <a href="./index.html" class="header-logo link"
-          >Web<span class="header-logo-webhead">Studio</span>
-        </a>
-        <ul class="header-menu list">
-          <li class="header-menu-item">
-            <a href="./index.html" class="header-menu-link link">Studio</a>
-          </li>
-          <li class="header-menu-item">
-            <a href="./portfolio.html" class="header-menu-link link"
-              >Portfolio</a
-            >
-          </li>
-          <li class="header-menu-item">
-            <a href="" class="header-menu-link link">Contacts</a>
-          </li>
-        </ul>
-      </nav>
-      <address class="address">
-        <ul class="header-menu list">
-          <li class="header-menu-item">
-            <a href="mailto:info@devstudio.com" class="header-contacts link"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li class="header-menu-item">
-            <a href="tel:+110001111111" class="header-contacts link"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="container head-container">
+        <nav class="header-navigation">
+          <a href="./index.html" class="header-logo link"
+            >Web<span class="header-logo-webhead">Studio</span>
+          </a>
+          <ul class="header-menu list">
+            <li class="header-menu-item">
+              <a href="./index.html" class="header-menu-link link">Studio</a>
+            </li>
+            <li class="header-menu-item">
+              <a href="./portfolio.html" class="header-menu-link link"
+                >Portfolio</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a href="" class="header-menu-link link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="address">
+          <ul class="header-menu list">
+            <li class="header-menu-item">
+              <a href="mailto:info@devstudio.com" class="header-contacts link"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li class="header-menu-item">
+              <a href="tel:+110001111111" class="header-contacts link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
 
     <main>
       <section class="section-portf list">
-        <h1>Section</h1>
-        <ul class="menu-portf list">
-          <!----------------------------BUTTON1------------------------------->
+        <div class="container container-btn-port">
+          <h1 hidden>Section</h1>
+          <ul class="menu-portf list">
+            <!----------------------------BUTTON1------------------------------->
 
-          <li class="menu-items">
-            <button type="button" class="hero-btn">All</button>
-            <a href=""></a>
-          </li>
+            <li class="menu-items">
+              <button type="button" class="hero-btn">All</button>
+            </li>
 
-          <!----------------------------BUTTON2------------------------------->
+            <!----------------------------BUTTON2------------------------------->
 
-          <li class="menu-items">
-            <button type="button" class="hero-btn">Web Site</button>
-            <a href=""></a>
-          </li>
+            <li class="menu-items">
+              <button type="button" class="hero-btn">Web Site</button>
+            </li>
 
-          <!----------------------------BUTTON3------------------------------->
+            <!----------------------------BUTTON3------------------------------->
 
-          <li class="menu-items">
-            <button type="button" class="hero-btn">App</button>
-            <a href=""></a>
-          </li>
+            <li class="menu-items">
+              <button type="button" class="hero-btn">App</button>
+            </li>
 
-          <!----------------------------BUTTON4------------------------------->
+            <!----------------------------BUTTON4------------------------------->
 
-          <li class="menu-items">
-            <button type="button" class="hero-btn">Design</button>
-            <a href=""></a>
-          </li>
+            <li class="menu-items">
+              <button type="button" class="hero-btn">Design</button>
+            </li>
 
-          <!----------------------------BUTTON5------------------------------->
+            <!----------------------------BUTTON5------------------------------->
 
-          <li class="menu-items">
-            <button type="button" class="hero-btn">Marketing</button>
-            <a href=""></a>
-          </li>
-        </ul>
+            <li class="menu-items">
+              <button type="button" class="hero-btn">Marketing</button>
+            </li>
+          </ul>
+        </div>
 
         <!--------------------the first pic-------------------------->
+        <div class="container cont-pics-portf">
+          <ul class="portf-pictures list">
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPage1.jpg"
+                  alt="Banking App"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">
+                    Banking App Interface Concept
+                  </h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">App</p>
+                </div>
+              </a>
+            </li>
 
-        <ul class="portf-pictures list">
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPage1.jpg"
-                alt="Banking App"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Banking App Interface Concept</h2>
-              <p class="portf-paragraf">App</p>
-            </a>
-          </li>
+            <!------------------------------the second pic-------------------------->
 
-          <!------------------------------the second pic-------------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE2.jpg"
+                  alt="Cashless Payment"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Cashless Payment</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE2.jpg"
-                alt="Cashless Payment"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Cashless Payment</h2>
-              <p class="portf-paragraf">Marketing</p>
-            </a>
-          </li>
+            <!------------------------------the third pic-------------------------->
 
-          <!------------------------------the third pic-------------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE3.jpg"
+                  alt="Meditation App"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Meditation App</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">App</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE3.jpg"
-                alt="Meditation App"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Meditation App</h2>
-              <p class="portf-paragraf">App</p>
-            </a>
-          </li>
+            <!------------------------------the fourth pic-------------------------->
 
-          <!------------------------------the fourth pic-------------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE4.jpg"
+                  alt="Taxi Service"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Taxi Service</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE4.jpg"
-                alt="Taxi Service"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Taxi Service</h2>
-              <p class="portf-paragraf">Marketing</p>
-            </a>
-          </li>
+            <!------------------------------the fifth pic-------------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE5.jpg"
+                  alt="Screen Illustration"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Screen Illustrations</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Design</p>
+                </div>
+              </a>
+            </li>
 
-          <!------------------------------the fifth pic-------------------------->
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE5.jpg"
-                alt="Screen Illustration"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Screen Illustrations</h2>
-              <p class="portf-paragraf">Design</p>
-            </a>
-          </li>
+            <!------------------------------the sixth pics-------------------------->
 
-          <!------------------------------the sixth pics-------------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE6.jpg"
+                  alt="Online Courses"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Online Courses</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Marketing</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE6.jpg"
-                alt="Online Courses"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Online Courses</h2>
-              <p class="portf-paragraf">Marketing</p>
-            </a>
-          </li>
+            <!--------------------the seventh pic---------------------->
 
-          <!--------------------the seventh pic---------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE7.jpg"
+                  alt="Instagram Stories"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Instagram Stories Concept</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Design</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE7.jpg"
-                alt="Instagram Stories"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Instagram Stories Concept</h2>
-              <p class="portf-paragraf">Design</p>
-            </a>
-          </li>
+            <!------------------------------the eighth pic-------------------------->
 
-          <!------------------------------the eighth pic-------------------------->
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE8.jpg"
+                  alt="Organic Foodt"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Organic Food</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Web Site</p>
+                </div>
+              </a>
+            </li>
 
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE8.jpg"
-                alt="Organic Foodt"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Organic Food</h2>
-              <p class="portf-paragraf">Web Site</p>
-            </a>
-          </li>
+            <!------------------------------the nineth pics-------------------------->
 
-          <!------------------------------the nineth pics-------------------------->
-
-          <li class="portf-pics-item">
-            <a href="" class="block-photos1 link">
-              <img
-                src="./images/2ndPAGE9.jpg"
-                alt="Fresh Coffee"
-                height="300"
-                width="360"
-              />
-              <h2 class="portf-pics-section">Fresh Coffee</h2>
-              <p class="portf-paragraf">Web Site</p>
-            </a>
-          </li>
-        </ul>
+            <li class="portf-pics-item">
+              <a href="" class="block-photos1 link">
+                <img
+                  src="./images/2ndPAGE9.jpg"
+                  alt="Fresh Coffee"
+                  height="300"
+                  width="360"
+                />
+                <div class="title-portf-pic">
+                  <h2 class="portf-pics-section">Fresh Coffee</h2>
+                </div>
+                <div class="paragraf-portfolio">
+                  <p class="portf-paragraf">Web Site</p>
+                </div>
+              </a>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
 
     <!-----------------------------------FOOTER---------------------->
 
     <footer class="footer">
-      <a href="./index.html" class="header-logo link"
-        >Web<span class="footer-logo-web">Studio</span>
-      </a>
-      <p class="footer-page">
-        Increase the flow of customers and sales for your business with digital
-        marketing & growth solutions.
-      </p>
+      <div class="container">
+        <a href="./index.html" class="header-logo link"
+          >Web<span class="footer-logo-web">Studio</span>
+        </a>
+        <p class="footer-page">
+          Increase the flow of customers and sales for your business with
+          digital marketing & growth solutions.
+        </p>
+      </div>
     </footer>
   </body>
 </html>
