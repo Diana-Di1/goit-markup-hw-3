@@ -286,7 +286,6 @@ ul {
 }
 
 .list-benef {
-  width: calc((100% - 72px) / 4);
 }
 
 .benefits-p {
@@ -528,8 +527,6 @@ img {
 
 .block-photos-one {
   text-decoration: none;
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
 }
 
 .container-btn-port {
@@ -539,7 +536,9 @@ img {
   border-right: ;
   border-bottom: ;
   border-left: ;
-  padding: 32px 54px 8px 16px;
+
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
 }
 
 .menu-portf {
