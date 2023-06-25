@@ -266,6 +266,7 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
   gap: 24px;
+  padding-left: 0;
 }
 
 .benefits {
@@ -281,7 +282,6 @@ ul {
   padding-left: 0;
   margin: 0;
   padding-bottom: 120px;
-  padding-left: 0;
 }
 
 .list-benef {
