@@ -267,7 +267,6 @@ ul {
   padding-top: 120px;
   padding-bottom: 120px;
   gap: 24px;
-  width: calc((100% - 72px) / 4);
 }
 
 .benefits {
@@ -286,7 +285,7 @@ ul {
 }
 
 .list-benef {
-  calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .benefits-p {
@@ -475,7 +474,6 @@ img {
 }
 
 .header-menu-item {
-  list-style: none;
 }
 
 .header-logo-port {
@@ -515,6 +513,7 @@ img {
   flex-wrap: wrap;
   gap: 48px 24px;
   margin-bottom: 120px;
+  list-style: none;
 }
 
 /*LI*/
@@ -534,12 +533,9 @@ img {
 }
 
 .title-portf-pic {
-  border-right: ;
-  border-bottom: ;
-  border-left: ;
-  border-top: none;
-  padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  padding: 32px 16px;
+  border-top: none;
 }
 
 .menu-portf {
