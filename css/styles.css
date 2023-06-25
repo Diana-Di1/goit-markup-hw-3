@@ -261,10 +261,7 @@ ul {
 .list-section-two {
   list-style: none;
   display: flex;
-  padding-left: 156px;
-  padding-right: 156px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
   gap: 24px;
   padding-left: 0;
 }
