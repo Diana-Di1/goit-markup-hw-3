@@ -261,7 +261,6 @@ ul {
 .list-section-two {
   list-style: none;
   display: flex;
-
   gap: 24px;
   padding-left: 0;
 }
@@ -283,6 +282,7 @@ ul {
 
 .list-benef {
   width: calc((100% - 72px) / 4);
+  padding-left: 0;
 }
 
 .benefits-p {
